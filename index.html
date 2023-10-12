@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./src/img/favicon.webp"
+      type="image/x-icon"
+    />
+    <script type="module" src="src/controller.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Movie App</div>
+        <div class="search--bar__container">
+          <form id="search">
+            <input type="search" name="movie" placeholder="Search Any Movie" />
+            <button type="submit" class="icons">
+              <img
+                src="./src/img/icons/search-alt-1-svgrepo-com.svg"
+                alt="search-icon"
+              />
+            </button>
+          </form>
+        </div>
+      </nav>
+      <div class="watch__later">Watch Later</div>
+
+      <div class="hidden bookmark__container"></div>
+    </header>
+    <section>
+      <div id="show--movie__container"></div>
+      <div class="hidden movie--details__container"></div>
+      <div class="movie__container"></div>
+    </section>
+
+    <div class="hidden pagination__container">
+      <div class="btn__previous">← Page 1</div>
+      <div class="btn__next">Page 2 →</div>
+    </div>
+    <footer>
+      Copyright &copy;
+      <a class="twitter-link" href="https://github.com/shoaeeb" target="_blank"
+        >Shoaeeb Osman.</a
+      >
+      Use on your Portfolio or for learning.
+    </footer>
+  </body>
+</html>

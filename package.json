@@ -1,0 +1,19 @@
+{
+  "name": "project-movie-app",
+  "version": "1.0.0",
+  "description": "Movie App",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Shoaeeb Osman",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "core-js": "^3.33.0",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
